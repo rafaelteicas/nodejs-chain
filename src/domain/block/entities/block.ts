@@ -1,7 +1,6 @@
+import { BlockHeader } from "./block-header";
+
 export type Block = {
-  hash: string;
-  previousHash: string;
-  height: number;
-  timestamp: number;
-  transactions: string[];
+  header: BlockHeader;
+  data: string[];
 };

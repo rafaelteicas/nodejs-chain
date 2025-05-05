@@ -1,4 +1,4 @@
-import { GenerateHash } from "../../data/crypto/generate-hash";
+import { GenerateHash } from "../../domain/crypto/use-cases/generate-hash";
 import { createHash } from "crypto";
 
 export class Sha256 implements GenerateHash {
