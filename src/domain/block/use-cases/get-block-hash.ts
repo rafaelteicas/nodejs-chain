@@ -1,4 +1,4 @@
-import { GenerateHash } from "../../crypto/use-cases/generate-hash";
+import { GenerateHash } from "@/domain/crypto";
 import { BlockHeader } from "../entities/block-header";
 
 export class GetBlockHash {
