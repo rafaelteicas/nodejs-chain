@@ -22,7 +22,7 @@ export class CreateNewBlock {
         ...header,
         hash: hash,
       },
-      data: [""],
+      data: "",
     };
   }
 }
